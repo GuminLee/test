@@ -1,0 +1,16 @@
+<처음 깃 설치시 깃 설정>
+// 유저 이름 설정
+ git config --global user.name "Gumin Lee"
+// 유저 이메일 설정(깃 허브 가입한 이메일)
+ git config --global user.email "littlegbear@naver.com"
+// 설정 확인
+ git config --list
+
+<깃으로 업로드하기>
+// 깃으로 업로드할 폴더에서 깃배쉬 실행
+git init (최초 한 번만 실행)
+git add . (깃에 파일 올리기, '.' : 전부 다 올리겠다)
+git commit -m "first commit"(히스토리 만들기)
+git remote add origin https://github.com/Leegumin/gitTest.git (데스크탑과 깃허브의 연결고리 만들어주기)
+git remote -v (연결 잘 됐는지 확인)
+git push origin master (깃허브로 푸쉬)
