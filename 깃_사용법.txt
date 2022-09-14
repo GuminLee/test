@@ -14,3 +14,13 @@ git commit -m "first commit"(히스토리 만들기)
 git remote add origin https://github.com/Leegumin/gitTest.git (데스크탑과 깃허브의 연결고리 만들어주기)
 git remote -v (연결 잘 됐는지 확인)
 git push origin master (깃허브로 푸쉬)
+
+<깃으로 협업하기>
+// 다운받을 깃의 주소 복사
+폴더를 만들 상위폴더에서 깃배쉬 실행
+git clone 깃허브주소 폴더이름
+git add .
+git commit -m "gitTest2 first commit"
+git checkout -b 브렌치이름
+git push origin 브렌치이름
+git pull origin master (마스터의 소스 땡겨오기, 버전업데이트)
